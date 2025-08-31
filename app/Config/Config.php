@@ -4,7 +4,7 @@ $user = "root";
 $pass = "";
 $db   = "db_mahasiswa";
 
-$conn = new mysqli("localhost", "root", "", "your_database");
+$conn = new mysqli("localhost", "root", "", "db_mahasiswa");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

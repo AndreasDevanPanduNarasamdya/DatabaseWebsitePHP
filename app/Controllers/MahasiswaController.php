@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . '/../model/Mahasiswa.php');
+require_once(__DIR__ . 'G:/XAMPP/htdocs/mahasiswa/app/Models/Mahasiswa.php');
 
 class MahasiswaController {
     private $db;

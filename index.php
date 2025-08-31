@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__ . '/app/config/config.php';
+require_once __DIR__ . '/app/Config/Config.php';
 
-require_once __DIR__ . '/controllers/MahasiswaController.php';
+require_once __DIR__ . '/app/Controllers/MahasiswaController.php';
 
 $controller = new MahasiswaController($conn);
 
